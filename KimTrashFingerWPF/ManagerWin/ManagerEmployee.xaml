@@ -1,0 +1,15 @@
+﻿<Window x:Class="KimTrashFingerWPF.ManagerEmployee"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KimTrashFingerWPF"
+        mc:Ignorable="d"
+        Title="Администратор - Сотрудники" Height="450" Width="800">
+    <Grid Background="#FF86B0AA">
+        <ListBox HorizontalAlignment="Left" Height="274" Margin="50,125,0,0" VerticalAlignment="Top" Width="550"/>
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="624,125,0,0" VerticalAlignment="Top" Width="150" FontFamily="Times New Roman" FontSize="14"/>
+        <TextBlock HorizontalAlignment="Left" Height="30" Margin="300,30,0,0" TextWrapping="Wrap" Text="Сотрудники" VerticalAlignment="Top" Width="200" FontSize="20" FontFamily="Times New Roman" TextAlignment="Center"/>
+        <TextBox HorizontalAlignment="Left" Height="20" Margin="50,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="550"/>
+    </Grid>
+</Window>

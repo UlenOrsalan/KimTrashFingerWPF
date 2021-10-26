@@ -1,0 +1,24 @@
+﻿<Window x:Class="KimTrashFingerWPF.DoctorWin.DocMain"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KimTrashFingerWPF.DoctorWin"
+        mc:Ignorable="d"
+        Title="DocMain" Height="450" Width="800">
+    <Grid Background="#FFDBDEBE">
+        <ListView HorizontalAlignment="Left" Height="300" Margin="150,100,0,0" VerticalAlignment="Top" Width="600">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button Content="Выход" HorizontalAlignment="Left" Margin="25,350,0,0" VerticalAlignment="Top" Width="100" Height="20"/>
+        <Button Content="Рецепты" HorizontalAlignment="Left" Margin="25,285,0,0" VerticalAlignment="Top" Width="100" Click="Button_Click"/>
+        <Button Content="График" HorizontalAlignment="Left" Margin="25,125,0,0" VerticalAlignment="Top" Width="100" Click="Button_Click_1"/>
+        <Button Content="Клиенты" HorizontalAlignment="Left" Margin="25,165,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button Content="Пациенты" HorizontalAlignment="Left" Margin="25,205,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button Content="Препараты" HorizontalAlignment="Left" Margin="25,245,0,0" VerticalAlignment="Top" Width="100" Click="Button_Click_2"/>
+    </Grid>
+</Window>
